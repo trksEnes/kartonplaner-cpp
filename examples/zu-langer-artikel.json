@@ -1,0 +1,94 @@
+{
+  "articles": [
+    {
+      "name": "Langes Bauteil",
+      "size": {
+        "length_mm": 1000,
+        "width_mm": 50,
+        "height_mm": 50
+      },
+      "weight_g": 500,
+      "quantity": 1
+    }
+  ],
+  "cartons": [
+    {
+      "inside": {
+        "height_mm": 100,
+        "length_mm": 200,
+        "width_mm": 150
+      },
+      "max_payload_g": 2000,
+      "name": "XS"
+    },
+    {
+      "inside": {
+        "height_mm": 150,
+        "length_mm": 250,
+        "width_mm": 200
+      },
+      "max_payload_g": 5000,
+      "name": "S"
+    },
+    {
+      "inside": {
+        "height_mm": 200,
+        "length_mm": 300,
+        "width_mm": 250
+      },
+      "max_payload_g": 8000,
+      "name": "M"
+    },
+    {
+      "inside": {
+        "height_mm": 250,
+        "length_mm": 350,
+        "width_mm": 250
+      },
+      "max_payload_g": 10000,
+      "name": "M+"
+    },
+    {
+      "inside": {
+        "height_mm": 250,
+        "length_mm": 400,
+        "width_mm": 300
+      },
+      "max_payload_g": 15000,
+      "name": "L"
+    },
+    {
+      "inside": {
+        "height_mm": 300,
+        "length_mm": 450,
+        "width_mm": 350
+      },
+      "max_payload_g": 20000,
+      "name": "L+"
+    },
+    {
+      "inside": {
+        "height_mm": 350,
+        "length_mm": 500,
+        "width_mm": 400
+      },
+      "max_payload_g": 25000,
+      "name": "XL"
+    },
+    {
+      "inside": {
+        "height_mm": 400,
+        "length_mm": 600,
+        "width_mm": 400
+      },
+      "max_payload_g": 30000,
+      "name": "XXL"
+    }
+  ],
+  "format": "kartonplaner",
+  "settings": {
+    "article_padding_mm": 2,
+    "wall_margin_mm": 5
+  },
+  "version": 1
+}
